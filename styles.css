@@ -1,0 +1,145 @@
+* {
+    font-family : "Nunito", sans-serif;
+    margin : 0;
+    padding: 0;
+    color : #333333;
+}
+
+.bookshelf-header {
+    background-color : #32a852;
+    padding: 20px;
+}
+
+.bookshelf-title {
+    text-align : center;
+    color : #e6e6e6;
+}
+
+main {
+    padding : 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-block > input {
+    display: block;
+    width: 100%;
+    border : solid #dbdbdb .5px;
+    border-radius : 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.tambah-buku {
+    background-color : #ccffb0;
+    padding: 20px;
+    padding-left : 50px;
+    padding-right : 50px;
+    border-radius : 20px;
+    margin-bottom : 30px;
+    width : 60%;
+}
+
+button {
+    margin-top : 10px;
+    border : solid #dbdbdb .5px;
+    border-radius : 10px;
+    background-color : #32a852;
+    color : #e6e6e6;
+    cursor : pointer;
+    padding : 10px;
+}
+
+button span {
+    font-weight : bold;
+}
+
+.cari-buku {
+    background-color : #ccffb0;
+    padding: 20px;
+    padding-left : 50px;
+    padding-right : 50px;
+    border-radius : 20px;
+    margin-bottom : 30px;
+    width : 60%;
+}
+
+.cari-buku input {
+    display: block;
+    width: 100%;
+    border : solid #dbdbdb .5px;
+    border-radius : 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cari-buku > div > div {
+    background-color : #aff788;
+    border : solid #dbdbdb .5px;
+    padding : 20px 40px 0px;
+    margin : 30px;
+    border-radius : 10px;
+}
+
+.incomplete-book {
+    background-color : #ccffb0;
+    padding: 20px;
+    padding-left : 50px;
+    padding-right : 50px;
+    border-radius : 20px;
+    margin-bottom : 30px;
+    width : 60%;
+}
+
+.complete-book {
+    background-color : #ccffb0;
+    padding: 20px;
+    padding-left : 50px;
+    padding-right : 50px;
+    border-radius : 20px;
+    margin-bottom : 30px;
+    width : 60%;
+}
+
+#bookItemDeleteButton {
+    color: red;
+}
+
+#incompleteBookList > div {
+    background-color : #aff788;
+    border : solid #dbdbdb .5px;
+    padding : 20px 40px 0px;
+    margin : 30px;
+    border-radius : 10px;
+}
+
+#incompleteBookList > div > div {
+    display : flex;
+    flex-direction : row;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+#incompleteBookList * {
+    margin-bottom: 10px;
+}
+
+#completeBookList > div {
+    background-color : #aff788;
+    border : solid #dbdbdb .5px;
+    padding : 20px 40px 0px;
+    margin : 30px;
+    border-radius : 10px;
+}
+
+#completeBookList > div > div {
+    display : flex;
+    flex-direction : row;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+#completeBookList * {
+    margin-bottom: 10px;
+}
